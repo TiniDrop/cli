@@ -1,0 +1,24 @@
+{
+  "name": "tinidrop",
+  "version": "1.0.0",
+  "description": "Deploy files and static sites to TiniDrop from the command line.",
+  "type": "module",
+  "bin": {
+    "tinidrop": "./bin/tinidrop.mjs"
+  },
+  "files": [
+    "bin"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TiniDrop/cli.git"
+  },
+  "homepage": "https://tinidrop.com",
+  "license": "MIT",
+  "dependencies": {
+    "fflate": "^0.8.2"
+  }
+}
