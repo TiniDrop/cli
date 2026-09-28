@@ -16,7 +16,9 @@
     "type": "git",
     "url": "https://github.com/TiniDrop/cli.git"
   },
-  "homepage": "https://tinidrop.com",
+  "bugs": {
+    "url": "https://github.com/TiniDrop/cli/issues"
+  },
   "license": "MIT",
   "dependencies": {
     "fflate": "^0.8.2"
